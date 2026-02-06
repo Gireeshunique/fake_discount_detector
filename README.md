@@ -1,5 +1,5 @@
 ### 🛒 Fake Discount Detector (Amazon E-commerce)
-#####📌 Project Overview
+#### 📌 Project Overview
 
 Online shopping platforms often display large discounts that may not always be genuine.
 This project builds a machine learning system that detects whether an e-commerce discount is REAL or FAKE using historical pricing patterns.

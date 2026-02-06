@@ -1,5 +1,5 @@
-🛒 Fake Discount Detector (Amazon E-commerce)
-📌 Project Overview
+### 🛒 Fake Discount Detector (Amazon E-commerce)
+#####📌 Project Overview
 
 Online shopping platforms often display large discounts that may not always be genuine.
 This project builds a machine learning system that detects whether an e-commerce discount is REAL or FAKE using historical pricing patterns.
@@ -16,7 +16,7 @@ Discount percentage
 
 It then predicts the probability of a fake discount and provides consumer-friendly insights via a Streamlit web application.
 
-🎯 Objectives
+##### 🎯 Objectives
 
 Detect misleading e-commerce discounts
 
@@ -26,7 +26,7 @@ Apply end-to-end machine learning workflow
 
 Deploy a real-time prediction web app
 
-📂 Dataset
+##### 📂 Dataset
 
 Source: Amazon Products Price Dataset from Kaggle
 
@@ -44,7 +44,7 @@ discount_percentage	Discount offered
 
 Historical price is simulated using category-level average pricing, which is acceptable for beginner ML projects.
 
-🧠 Machine Learning Workflow
+##### 🧠 Machine Learning Workflow
 
 Data loading and cleaning
 
@@ -62,7 +62,7 @@ Model serialization
 
 Streamlit deployment
 
-⚙️ Feature Engineering
+##### ⚙️ Feature Engineering
 
 Discount Percentage
 
@@ -76,7 +76,7 @@ Target Variable
 fake_discount = 1 → Fake Discount
 fake_discount = 0 → Real Discount
 
-🤖 Model Used
+##### 🤖 Model Used
 
 Algorithm: Logistic Regression
 
@@ -90,7 +90,7 @@ Beginner-friendly
 
 Interview-safe
 
-📊 Model Evaluation
+##### 📊 Model Evaluation
 
 Accuracy score
 
@@ -98,7 +98,7 @@ Confusion matrix
 
 Classification report
 
-🖥️ Web Application (Streamlit)
+##### 🖥️ Web Application (Streamlit)
 
 The Streamlit app allows users to:
 
@@ -110,7 +110,7 @@ Predict fake discount probability
 
 View consumer-friendly insights
 
-📁 Project Structure
+##### 📁 Project Structure
 fake-discount-detector/
 │
 ├── data/
@@ -128,7 +128,7 @@ fake-discount-detector/
 ├── requirements.txt
 └── README.md
 
-🚀 How to Run the Project
+##### 🚀 How to Run the Project
 1️⃣ Install Dependencies
 pip install -r requirements.txt
 
@@ -138,7 +138,7 @@ python train_model.py
 3️⃣ Run Streamlit App
 streamlit run app.py
 
-💡 Example Output
+##### 💡 Example Output
 
 Fake Discount Probability: 72%
 
@@ -146,7 +146,7 @@ Verdict: ❌ Fake Discount
 
 Consumer Tips: Compare prices across platforms
 
-🧪 Technologies Used
+##### 🧪 Technologies Used
 
 Python
 
@@ -158,7 +158,7 @@ Matplotlib & Seaborn
 
 Streamlit
 
-🎓 Use Cases
+##### 🎓 Use Cases
 
 Consumer protection tools
 
@@ -168,7 +168,7 @@ E-commerce analytics
 
 Academic ML projects
 
-🏆 Key Highlights
+##### 🏆 Key Highlights
 
 ✔ Real Amazon dataset
 ✔ End-to-end ML pipeline
@@ -176,12 +176,12 @@ Academic ML projects
 ✔ Deployed web application
 ✔ Beginner-friendly design
 
-📜 License
+##### 📜 License
 
 This project is for educational purposes only.
 Dataset credit belongs to the original Kaggle contributors.
 
-🙌 Author
+##### 🙌 Author
 
 Your Name
 Gireesh Boggala

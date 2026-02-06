@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load trained model & encoder
-model = pickle.load(open("model.pkl", "rb"))
-encoder = pickle.load(open("encoder.pkl", "rb"))
+model = pickle.load(open("models/model.pkl", "rb"))
+encoder = pickle.load(open("models/encoder.pkl", "rb"))
 
 st.set_page_config(
     page_title="Fake Discount Detector",
